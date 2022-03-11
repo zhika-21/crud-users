@@ -36,7 +36,7 @@ const App = () => {
 
 
   return isLoading ? <SpinnerWrapper>
-    <Typography mb={2}>Data is loading...</Typography>
+    <Typography mb={2}>Data 2 is loading...</Typography>
     <CircularProgress />
   </SpinnerWrapper> : (
     <Users users={users} />
